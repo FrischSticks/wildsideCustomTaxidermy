@@ -1,0 +1,6 @@
+[
+    {"id":1, "type":"rug", "mount":"Bear Rug (Skull Cape & Felt)",  "price": "$1600"},
+    {"id":2, "type":"rug", "mount":"Turkey Rug (Back Skin & Tail)", "price": "$400"},
+    {"id":3, "type":"rug", "mount":"Turkey Rug (Back Skin, Tail, & Wings)", "price": "$550"},
+    {"id":4, "type":"rug", "mount":"Turkey Rug (Whole)", "price": "$675"}
+]

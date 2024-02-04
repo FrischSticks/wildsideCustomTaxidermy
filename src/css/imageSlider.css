@@ -1,0 +1,48 @@
+.mainContainer {
+    margin-top: 150px;
+    /* SAME AS DISPLAY IMAGE */
+    width: 450px;
+}
+
+.displayImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 600px;
+    border-radius: 7.5%;
+    background-size: cover;
+    background-position: center;
+}
+
+.rightArrow, .leftArrow {
+    background-color: rgb(245, 245, 245, .25);
+    width: fit-content ;
+    block-size: fit-content;
+    border-radius: 30%;
+    padding: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.rightArrow:hover, .leftArrow:hover {
+    transform: scale(1.07);
+    background-color: rgb(245, 245, 245, .5);
+    cursor: pointer;
+}
+
+.rxDots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.rxDot {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.rxDot:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+}

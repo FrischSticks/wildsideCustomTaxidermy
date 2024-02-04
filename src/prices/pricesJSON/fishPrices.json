@@ -1,0 +1,6 @@
+[
+    {"id":1, "type":"fish", "mount":"Pan Fish", "price": "$400"},
+    {"id":2, "type":"fish", "mount":"Bass", "price": "$475"},
+    {"id":3, "type":"fish", "mount":"Reproductions", "price": "$27/in."},
+    {"id":3, "type":"fish", "mount":"Other Fish", "price": "$26/in."}
+]

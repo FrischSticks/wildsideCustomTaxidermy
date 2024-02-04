@@ -1,0 +1,13 @@
+[
+    {"id":1, "type":"smallGame", "mount":"Badger", "shoulderPrice":"", "fullPrice": "$995"},
+    {"id":2, "type":"smallGame", "mount":"Beaver", "shoulderPrice":"", "fullPrice": "$1200"},
+    {"id":3, "type":"smallGame", "mount":"Bobcat", "shoulderPrice":"$495", "fullPrice":"$995"},
+    {"id":4, "type":"smallGame", "mount":"Coyote", "shoulderPrice":"$495", "fullPrice":"$995"},
+    {"id":5, "type":"smallGame", "mount":"Lynx", "shoulderPrice":"$995", "fullPrice":"$1000"},
+    {"id":6, "type":"smallGame", "mount":"Fisher / Pine Martin", "shoulderPrice":"", "fullPrice":"$550"},
+    {"id":7, "type":"smallGame", "mount":"Fox", "shoulderPrice":"$495", "fullPrice":"$950"},
+    {"id":8, "type":"smallGame", "mount":"Mink", "shoulderPrice":"", "fullPrice":"$495"},
+    {"id":9, "type":"smallGame", "mount":"Otter", "shoulderPrice":"", "fullPrice":"$950"},
+    {"id":9, "type":"smallGame", "mount":"Raccoon", "shoulderPrice":"", "fullPrice":"$950"},
+    {"id":9, "type":"smallGame", "mount":"Squirrel", "shoulderPrice":"", "fullPrice":"$495"}
+]

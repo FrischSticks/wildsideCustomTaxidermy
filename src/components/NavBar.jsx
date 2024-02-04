@@ -1,13 +1,13 @@
 import React from 'react';
-import './NavBar.css';
-import logo from '../images/wildsideCreationsTaxidermy.jpeg';
+import '../css/NavBar.css';
+import logo from '../images/wildsideCustomTaxidermy.jpeg';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <nav className="navBar">
       <div className="logo">
-        <Link to="/"><img src={logo} alt='Wildside Creations Taxidermy logo' /></Link>
+        <Link to="/"><img src={logo} alt='Wildside Custom Taxidermy logo' /></Link>
       </div>
       <ul className="navLinks">
         <li><Link to="/about">About</Link></li>

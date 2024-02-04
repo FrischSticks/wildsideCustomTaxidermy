@@ -1,0 +1,17 @@
+[
+    {"id":1, "type":"bird", "mount":"Ducks", "price": "$425"},
+    {"id":2, "type":"bird", "mount":"Small Geese (Blue, Snow, Ross)", "price": "$550"},
+    {"id":3, "type":"bird", "mount":"Large Geese (Canadian)", "price": "$900"},
+    {"id":4, "type":"bird", "mount":"Grouse", "price": "$425"},
+    {"id":5, "type":"bird", "mount":"Pheasant", "price": "$425"},
+    {"id":6, "type":"bird", "mount":"Wood Cock", "price": "$425"},
+    {"id":7, "type":"bird", "mount":"Quail", "price": "$400"},
+    {"id":8, "type":"bird", "mount":"Chucker", "price": "$400"},
+    {"id":9, "type":"bird", "mount":"Sea Duck", "price": "$475"},
+    {"id":10, "type":"bird", "mount":"Swan", "price": "$1500"},
+    {"id":11, "type":"bird", "mount":"Turkey (Full Body)", "price": "$975"},
+    {"id":12, "type":"bird", "mount":"Turkey (Shoulder Mount)", "price": "$625"},
+    {"id":13, "type":"bird", "mount":"Turkey (Fan, Beard, & Spurs)", "price": "$200"},
+    {"id":14, "type":"bird", "mount":"Turkey (Fan, Beard, Spurs, & Skull)", "price": "$225"},
+    {"id":15, "type":"bird", "mount":"Turkey (Fan, Beard, Wings, & Feet)", "price": "$400"}
+]
