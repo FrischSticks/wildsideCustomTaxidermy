@@ -17,7 +17,7 @@
   img {
     height: 120px;
     margin-top: 10px;
-    margin-left: 75px;
+    padding-left: 75px;
   }
 
   img:hover {

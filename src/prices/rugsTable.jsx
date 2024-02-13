@@ -33,12 +33,12 @@ const rugsTable = () => {
             </tr>
           </tbody>
         </table>
-        <tfoot>
-            <tr>
-              <td>* Open Mouth Adds $300 *</td>
-            </tr>
-          </tfoot>
       </section>
+      <tfoot>
+        <tr>
+          <td>* Open Mouth Adds $300 *</td>
+        </tr>
+      </tfoot>
     </main>
   )
 }

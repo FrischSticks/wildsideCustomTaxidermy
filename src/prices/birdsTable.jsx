@@ -79,12 +79,12 @@ const birdsTable = () => {
           </tbody>
   
         </table>
-        <tfoot>
-            <tr>
-              <td>* All Birds Include Standard Habitat - Turkey Limb Adds $100 *</td>
-            </tr>
-          </tfoot>
       </section>
+      <tfoot>
+        <tr>
+          <td>* All Birds Include Standard Habitat - Turkey Limb Adds $100 *</td>
+        </tr>
+      </tfoot>
     </main>
   )
 }

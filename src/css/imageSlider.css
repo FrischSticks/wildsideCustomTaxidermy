@@ -1,7 +1,9 @@
 .mainContainer {
-    margin-top: 150px;
     /* SAME AS DISPLAY IMAGE */
     width: 450px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
 }
 
 .displayImage {

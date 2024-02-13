@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
-
+import Map from '../components/Map';
+import '../css/Contact.css';
 // NEED TO SETUP EMAIL JS SERVICE & GET KEY
 
 const Contact = () => {
@@ -18,15 +19,28 @@ const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+  <div className="header">
+    <h1>Contact</h1>
+    <div className="primaryContainer">
+      
+      </div>
+      <div className="secondaryContainer">
+        <div className="contact">
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" required />
+            <label>Email</label>
+            <input type="email" name="user_email" required />
+            <label className='message'>Message</label>
+            <textarea name="message" required />
+            <input type="submit" value="Send" />
+          </form>
+          <p className='phone'>Phone: <span className='phoneNumber'>812-528-6288</span></p>
+          <p className='emailAddress'>IDK@gmail.com</p>
+        </div>
+        <Map />
+      </div>
+    </div>
   );
 };
 

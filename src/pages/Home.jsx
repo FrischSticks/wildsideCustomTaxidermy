@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/Home.css'
 import ohioFish from '../images/awardWinningFishOhio.jpg';
 import ImageSlider from '../components/ImageSlider.jsx';
+import FacebookEmbed from '../components/FacebookEmbed.jsx';
 
 const Home = () => {
   return (
@@ -42,9 +43,12 @@ const Home = () => {
           </div>
           <div className="introContainer2">
             <img src={ ohioFish } className='ohioFishImg' alt="WildSide Custom Taxidermy Award Winning Fish - Ohio " />
-          </div>
         </div>
-        < ImageSlider />
+        </div>
+        <div className="sliderEmbed">
+          < ImageSlider />
+          <FacebookEmbed />
+        </div>
       </div>
     </div>
   )

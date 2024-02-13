@@ -33,12 +33,12 @@ const fishTable = () => {
             </tr>
           </tbody>
         </table>
-        <tfoot>
-            <tr>
-              <td>* Minimum of $375 *</td>
-            </tr>
-          </tfoot>
       </section>
+      <tfoot>
+        <tr>
+          <td>* Minimum of $375 *</td>
+        </tr>
+      </tfoot>
     </main>
   )
 }

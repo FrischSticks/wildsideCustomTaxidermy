@@ -1,0 +1,75 @@
+.primaryContainer {
+    display: flex;
+    min-width: 100%;
+}
+
+.secondaryContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: .5%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    border-radius: 2.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+label:first-of-type {
+    margin-top: 0px;
+}
+
+textarea {
+    height: 250px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(187, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+}
+
+input[type="submit"]:hover {
+    color: rgb(220, 186, 35);
+}
+
+.phone, .emailAddress {
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.phoneNumber, .emailAddress {
+    color: rgb(187, 0, 0);
+}
+
+p.emailAddress, p.phone {
+    margin: 0px;
+}
