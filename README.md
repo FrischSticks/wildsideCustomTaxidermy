@@ -1,2 +1,2 @@
-# Wildside Creations Taxidermy
+# Wildside Custom Taxidermy
 Client Project: Wildside Custom Taxidermy
