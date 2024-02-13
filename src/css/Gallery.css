@@ -89,3 +89,13 @@
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */  
 }
+
+/* FILTER */
+.dropdownFilter {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 75%;
+    align-items: center;
+    margin-left: 155px;
+    margin-bottom: 25px;
+}
