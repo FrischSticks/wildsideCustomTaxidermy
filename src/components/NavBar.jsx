@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/NavBar.css';
 import logo from '../images/wildsideCustomTaxidermy.jpeg';
-import { Link } from 'react-router-dom';
+
 
 function NavBar() {
   return (

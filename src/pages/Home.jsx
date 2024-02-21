@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../css/Home.css'
 import ohioFish from '../images/awardWinningFishOhio.jpg';
 import ImageSlider from '../components/ImageSlider.jsx';
@@ -10,8 +11,9 @@ const Home = () => {
       <div className='banner'>
         <h1>Welcome to the WildSide</h1>
         <div className="bannerBtns">
-          <button className="bannerBtn1"> View Gallery</button>
-          <button className="bannerBtn2">Contact Us</button>
+          <Link to="/contact">
+            <button className="bannerBtn1">Contact Us</button>
+          </Link>
         </div>
       </div>
 

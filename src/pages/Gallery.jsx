@@ -74,8 +74,9 @@ const Gallery = () => {
           </div>
         </div>
       }
-      <div class="dropdownFilter">
-          <select id="filterDropdown" onchange="updateFilter()">
+      <div className="dropdownFilter">
+        <label htmlFor="filterDropdown">Filter Images: </label>
+          <select id="filterDropdown">
             <option value="All" onClick={ () => setImageList(allImages)}>All</option>
             <option value="Award Winners" onClick={ () => setImageList( awardWinningImages )}>Award Winners</option>
             <option value="Bear" onClick={ () => setImageList( bearImages )}>Bear</option>

@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../css/imageSlider.css'
 // ICONS
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
@@ -65,7 +66,10 @@ const ImageSlider = () => {
                             <RxDotFilled />
                     </div>
                 ))}
-            </div>    
+            </div>
+            <Link to="/gallery">
+                <button className="galleryBtn"> View Gallery</button>
+            </Link> 
         </div>
     );
 }

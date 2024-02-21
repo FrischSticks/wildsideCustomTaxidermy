@@ -73,3 +73,22 @@ input[type="submit"]:hover {
 p.emailAddress, p.phone {
     margin: 0px;
 }
+
+.popup {
+    display: block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+
+  /* CLASS ADDED AFTER MESSAGE IS SENT (DISAPPEARS AFTER 5 SECONDS) */
+  input.greenButton {
+    background-color: green;
+    color: #fff;
+  }

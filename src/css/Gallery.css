@@ -1,7 +1,11 @@
+h1 {
+    margin-bottom: 10px;
+}
+
 .galleryWrap {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     justify-content: center;
     max-width: 75%;
@@ -10,19 +14,26 @@
 
 .galleryWrap .singleImageContainer {
     width: 150px;
+    height: 200px;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .galleryWrap .singleImageContainer img {
     max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    height: auto;
     padding: 0px;
     margin: 0px;
+    border-radius: 7.5%;
 }
 
 .galleryWrap .singleImageContainer img:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 .sliderWrap {
@@ -96,6 +107,10 @@
     justify-content: flex-end;
     max-width: 75%;
     align-items: center;
-    margin-left: 155px;
+    margin-left: 200px;
     margin-bottom: 25px;
+}
+
+select {
+    margin-left: 10px;
 }
