@@ -1,0 +1,46 @@
+.card {
+    width: fit-content;
+    overflow: hidden;
+    margin-top: 150px;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+  }
+
+  .card:first-of-type {
+    margin-top: 50px;
+  }
+  
+  .awardsImage {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    padding: 0px;
+    border-radius: 7.5%;
+    width: 400px;
+    height: auto;
+    align-items: flex-start;
+    margin-right: 150px;
+  }
+
+  .awardsImage:hover {
+    display: none;
+}
+  
+  .cardContent {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -75px;
+  }
+  
+  .showName {
+    font-size: 1.4em;
+    margin: 0;
+  }
+  
+  .award {
+    margin: 8px 0 0 0;
+  }
+

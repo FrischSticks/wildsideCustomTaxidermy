@@ -1,6 +1,7 @@
 .primaryContainer {
     display: flex;
     min-width: 100%;
+    margin-top: 75px;
 }
 
 .secondaryContainer {
@@ -59,18 +60,15 @@ input[type="submit"]:hover {
     color: rgb(220, 186, 35);
 }
 
-.phone, .emailAddress {
+.phoneNumber {
     font-size: 20px;
     font-style: italic;
     display: flex;
     justify-content:flex-end;
-}
-
-.phoneNumber, .emailAddress {
     color: rgb(187, 0, 0);
 }
 
-p.emailAddress, p.phone {
+p.phoneNumber {
     margin: 0px;
 }
 

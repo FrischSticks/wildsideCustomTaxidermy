@@ -1,13 +1,6 @@
-.awardImages {
-    pointer-events: none;
-    padding: 0px;
-    border-radius: 7.5%;
-    width: 400px;
-    height: auto;
-    margin: 0px 150px;
-
-}
-
-.awardImages:hover {
-    display: none;
+.awardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
