@@ -1,0 +1,16 @@
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.aboutText {
+    max-width: 70%;
+    line-height: 200%;
+}
+
+.facebookEmbed {
+    margin-left: 150px;
+}
