@@ -1,0 +1,116 @@
+h1 {
+    margin-bottom: 10px;
+}
+
+.galleryWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.galleryWrap .singleImageContainer {
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryWrap .singleImageContainer img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 7.5%;
+}
+
+.galleryWrap .singleImageContainer img:hover {
+    transform: scale(1.05);
+}
+
+.sliderWrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* ALL BUTTONS IN MODAL */
+.sliderWrap .previousImageBtn, .sliderWrap .nextImageBtn, .sliderWrap .closeModalBtn {
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 9999;
+}
+
+.closeModalBtn:hover,.previousImageBtn:hover, .nextImageBtn:hover {
+    opacity: 1;
+}
+
+.sliderWrap .previousImageBtn {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+}
+
+.sliderWrap .nextImageBtn {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+}
+
+.sliderWrap .closeModalBtn {
+    top: 40px;
+    right: 40px;
+}
+
+.fullScreenImage {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullScreenImage img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    pointer-events: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */  
+}
+
+/* FILTER */
+.dropdownFilter {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 75%;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 25px;
+}
+
+select {
+    margin-left: 10px;
+}
