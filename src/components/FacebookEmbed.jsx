@@ -4,9 +4,10 @@ const FacebookEmbed = () => {
   return (
     <iframe
         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwww.wildsidecustomtaxidermy&tabs=timeline&width=450&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+        className='facebookIframe'
         width="450"
         height="600"
-        style={{ overflow: 'hidden', padding: '4px', borderRadius: '2.5%', backgroundColor: 'black'}}
+        style={{ overflow: 'hidden', borderRadius: '2.5%'}}
         frameBorder="0"
         allowFullScreen={true}
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
