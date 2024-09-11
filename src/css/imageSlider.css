@@ -68,3 +68,13 @@
     color: rgb(255, 220, 65);
     transform: scale(1.1);
 }
+
+@media (max-width: 500px) {
+    .mainContainer {
+        width: 375px;
+    }
+    .displayImage {
+        width: 375px;
+        height: 500px;
+    }
+}

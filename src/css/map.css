@@ -4,3 +4,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
     border-radius: 2.5%;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 1415px) {
+    .mapContainer {
+        margin-top: 35px;
+    }
+
+    .iFrameMap {
+        width: 75vw;
+    }
+}

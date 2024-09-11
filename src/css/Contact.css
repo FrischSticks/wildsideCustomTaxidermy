@@ -1,14 +1,12 @@
 .primaryContainer {
     display: flex;
-    min-width: 100%;
-    margin-top: 75px;
-}
-
-.secondaryContainer {
-    display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .contact {
@@ -90,3 +88,10 @@ p.phoneNumber {
     background-color: green;
     color: #fff;
   }
+
+/* MEDIA QUERIES */
+@media (max-width: 1415px) {
+    .contact {
+        width: 78vw;
+    }
+}

@@ -3,12 +3,16 @@
     flex-direction: column;
     margin: 30px;
     margin-top: 0px;
+    align-items: center;
 }
+
+
 
 .priceBox1, .priceBox2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 tr, th, td {
@@ -16,10 +20,13 @@ tr, th, td {
     justify-content: space-around;
     margin: 3px 0px;
     min-width: 250px;
+}
+
+tr {
     width: 100%;
 }
 
-.priceBox1 table, .priceBox2 table {
+.priceBox1 table, .priceBox2 table, .priceBox3 table {
     border-bottom: solid thick rgb(25, 25, 25);
     border-right: solid thick rgb(25, 25, 25);
     border-width: 5px;
@@ -38,6 +45,7 @@ tr:hover {
     color: rgb(187, 0, 0);
     max-width: 70%;
     margin-left: 15%;
+    margin-bottom: 100px;
 }
 
 .disclaimers li {
@@ -47,6 +55,7 @@ tr:hover {
 h5 {
     margin-top: 100px;
     margin-bottom: 7px;
+    font-weight: bold;
 }
 
 .disclaimers ul {
@@ -54,4 +63,37 @@ h5 {
     flex-direction: column;
     margin: auto;
     margin-bottom: 35px;
+    list-style-type: disc;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+    tr, td {
+        min-width: 200px;
+        overflow-wrap: break-word;
+    }
+
+        td {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    tr, th, td {
+        min-width: 150px;
+    }
+
+    td {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    tr, th, td {
+        min-width: 125px;
+    }
+
+    td {
+        max-width: 150px;
+    }
 }

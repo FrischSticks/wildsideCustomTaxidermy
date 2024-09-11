@@ -4,7 +4,8 @@
     margin-top: 150px;
     display: flex;
     align-items: space-between;
-    justify-content: center;
+    justify-content: flex-start;
+    min-width: 65%
   }
 
   .card:first-of-type {
@@ -44,3 +45,28 @@
     margin: 8px 0 0 0;
   }
 
+
+  @media only screen and (max-width: 1000px) {
+    .card {
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .showName {
+      margin-top: 25%;
+    }
+
+    .cardContent {
+      margin-bottom: 20%;
+    }
+
+    .awardsImage {
+      margin-right: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .showName {
+      margin-top: 40%;
+    }
+  }
