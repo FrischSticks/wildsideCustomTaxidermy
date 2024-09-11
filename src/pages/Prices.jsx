@@ -34,7 +34,7 @@ const Prices = () => {
             <li>Once payment has been made in full, it may then be picked up at Wildside Custom Taxidermy. If arrangements for payment have not been made after 30 days, there will be a storage fee of $50/month applied to your remaining balance. After 6 months without payment, the mount then becomes property of Wildside Custom Taxidermy.</li>
             <li>Other Mounts & Services Available Upon Request</li>
             <li>Prices Subject to Change</li>
-            </ul>  
+          </ul>  
         </div>
     </div>
   )

@@ -72,11 +72,9 @@ const Contact = () => {
 
   return (
   <div className="header">
-    <h1>Contact</h1>
-    <div className="primaryContainer">
+    <h1>Contact Us</h1>
 
-    </div>
-      <div className="secondaryContainer">
+      <div className="primaryContainer">
         <div className="contact">
           <form id='contactForm' onSubmit={handleSubmit(submitForm)}>
             <label htmlFor="user_name"> Name</label>
@@ -95,8 +93,7 @@ const Contact = () => {
               className={isMessageSent ? 'greenButton' : ''}
             />
           </form>
-          <p className='phone'>Phone: <span className='phoneNumber'>812-528-6288</span></p>
-          <p className='emailAddress'> FrischeEvan@gmail.com </p>
+          <p className='phoneNumber'>812-216-9446</p>
         </div>
         <Map />
       </div>
